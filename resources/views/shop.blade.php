@@ -1,13 +1,12 @@
-<!DOCTYPE HTML>
+@extends("layout")
 
-<html>
-<head>
+@section("naslovStranice")
 
-</head>
+Shop
 
-<body>
+@endsection
+@section("sadrzajStranice")
+    <p>Ovo je shop</p>
+@endsection
 
-<h1>Shop at my homework</h1>
 
-</body>
-</html>

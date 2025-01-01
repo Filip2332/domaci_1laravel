@@ -1,13 +1,9 @@
-<!DOCTYPE HTML>
+@extends("layout")
 
-<html>
-<head>
+@section("naslovStranice")
+    Home
+@endsection
 
-</head>
-
-<body>
-
-<h1>Welcome to my homework</h1>
-
-</body>
-</html>
+@section("sadrzajStranice")
+    <p>Trenutno vreme je:{{date("h:i:s")}}</p>
+@endsection

@@ -1,13 +1,11 @@
-<!DOCTYPE HTML>
+@extends("layout")
 
-<html>
-<head>
+@section("naslovStranice")
+About
+@endsection
 
-</head>
+@section("sadrzajStranice")
+    <p>Ovo je moja stranica</p>
+@endsection
 
-<body>
 
-<h1>About my homework</h1>
-
-</body>
-</html>
