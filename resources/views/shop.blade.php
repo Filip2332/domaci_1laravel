@@ -6,7 +6,14 @@ Shop
 
 @endsection
 @section("sadrzajStranice")
-    <p>Ovo je shop</p>
+
+@foreach($products as $product)
+    <p>{{$product->name}}</p>
+    <p>{{$product->description}}</p>
+    <p>{{$product->price}}</p>
+    <p>{{$product->amount}}</p>
+@endforeach
+
 @endsection
 
 

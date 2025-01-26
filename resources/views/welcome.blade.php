@@ -5,5 +5,9 @@
 @endsection
 
 @section("sadrzajStranice")
-    <p>Trenutno vreme je:{{date("h:i:s")}}</p>
+    @if($trenutniSat >= 0 && $trenutniSat <= 12)
+        <p>Dobro jutro</p>
+    @endif
+    <p>Trenutno vreme je:{{$trenutnoVreme}}</p>
+    <p>Trenutno sati je:{{$trenutniSat}}</p>
 @endsection
