@@ -69,3 +69,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 "# domaci_2-laravel" 
 "# domaci_3laravel" 
 "# domaci_4laravel" 
+"# domaci_6laravel" 
